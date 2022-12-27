@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+main div {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div1 {
+  background-image: url("./img/christmas-2547356_1920.jpg");
+  height: 100vh;
+  padding: 10px;
+  /* position: relative; */
+  text-align: center;
+}
+.div1 h1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(51, 48, 40);
+  font-size: 48px;
+  letter-spacing: 8px;
+  padding: 32px;
+  line-height: 80px;
+  margin: 300px auto;
+  width: 530px;
+  outline: 8px solid rgb(185, 148, 98);
+  outline-offset: 16px;
+  border-radius: 32px 0 32px 0;
+  opacity: 0.9;
+  text-transform: uppercase;
+  /* display: inline-block; */
+}
+.div1__2 {
+  color: rgb(243, 248, 250);
+  height: 15vh;
+  text-align: center;
+  background-color: rgb(51, 48, 40);
+
+  padding: 20px 50px;
+}
+
+.div2 {
+  height: 120vh;
+  padding: 10px;
+  text-align: center;
+  background-image: url("./img/portugal-3029665_1920.jpg");
+}
+.div2 h1 {
+  background-color: black;
+  color: white;
+  width: 31vw;
+  margin: 300px auto;
+  outline-offset: 3px;
+  outline: 3px solid rgb(185, 148, 98);
+  border-radius: 2px 20px 2px 40px;
+  opacity: 0.9;
+}
+.div3 {
+  height: 120vh;
+  padding: 10px;
+  background-image: url("./img/real-estate-4955093_1920.jpg");
+}
+.div4 {
+  height: 120vh;
+  padding: 10px;
+  background-image: url("./img/schilthorn-3033448_1920.jpg");
+}
+
+.div5 {
+  height: 90vh;
+  padding: 10px;
+  background-image: url("./img/camera-1130731_1920.jpg");
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.my-float {
+  margin-top: 16px;
+}
